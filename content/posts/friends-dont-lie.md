@@ -2,7 +2,7 @@
 title: Friends don't lie
 date: 2021-01-04
 tags: [stranger things, tv series]
-social_image: '/media/rocket.jpg'
+social_image: "/media/rocket.jpg"
 description: This is a custom description for SEO and Open Graph purposes. If it's not provided, it defaults to auto-generated excerpts of the page content.
 ---
 
@@ -46,7 +46,7 @@ const findAndReplace = (string, wordToFind, wordToReplace) => {
   return string.split(wordToFind).join(wordToReplace);
 };
 
-let result = findAndReplace('I like banana', 'banana', 'apple'); // I like apple
+let result = findAndReplace("I like banana", "banana", "apple"); // I like apple
 ```
 
 ## Quoted Text

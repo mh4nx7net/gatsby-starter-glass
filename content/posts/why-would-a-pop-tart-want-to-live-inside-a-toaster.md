@@ -44,7 +44,7 @@ const findAndReplace = (string, wordToFind, wordToReplace) => {
   return string.split(wordToFind).join(wordToReplace);
 };
 
-let result = findAndReplace('I like banana', 'banana', 'apple'); // I like apple
+let result = findAndReplace("I like banana", "banana", "apple"); // I like apple
 ```
 
 ## Quoted Text
